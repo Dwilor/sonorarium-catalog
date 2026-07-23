@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-23",
   "categories": [
     {
@@ -69,6 +69,19 @@
           "rarity": "legendary",
           "description": "Chaque pas laisse une empreinte... et un son qui n'existe qu'en hiver.",
           "hint": "La neige fraîche est la meilleure alliée de ce souvenir."
+        },
+        {
+          "id": "test",
+          "name": "TEST",
+          "rarity": "common",
+          "description": "TEST EPHEMERE",
+          "hint": "Allô",
+          "ephemeral": {
+            "availableFrom": "2026-07-23T22:05:00.000Z",
+            "availableUntil": "2026-07-25T22:05:00.000Z",
+            "notificationTitle": "Un nouveau son est apparu",
+            "notificationBody": "Tu as deux jours pour le capturer :)"
+          }
         }
       ]
     },
