@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "updatedAt": "2026-07-24",
+  "version": 8,
+  "updatedAt": "2026-07-23",
   "categories": [
     {
       "id": "pluie-ciel",
@@ -81,6 +81,19 @@
             "availableUntil": "2026-07-25T22:30:00.000Z",
             "notificationTitle": "ezaez",
             "notificationBody": "ezaeazaeazeaz"
+          }
+        },
+        {
+          "id": "nouveau-son",
+          "name": "Nouveau son",
+          "rarity": "common",
+          "description": "ezaeaz",
+          "hint": "ezaea",
+          "ephemeral": {
+            "availableFrom": "2026-07-23T22:48:00.000Z",
+            "availableUntil": "2026-07-25T22:45:00.000Z",
+            "notificationTitle": "Test",
+            "notificationBody": "Test"
           }
         }
       ]
