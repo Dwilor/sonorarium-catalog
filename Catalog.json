@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-07-23",
   "categories": [
     {
@@ -82,7 +82,7 @@
             "notificationTitle": "Un nouveau son est apparu",
             "notificationBody": "Tu as deux jours pour le capturer :)"
           },
-                  {
+          {
           "id": "testtest",
           "name": "TEST 2",
           "rarity": "common",
@@ -95,7 +95,6 @@
             "notificationBody": "Tu as deux jours pour le capturer :)"
           }
         }
-      ]
     },
     {
       "id": "oiseaux",
