@@ -73,26 +73,14 @@
         {
           "id": "test",
           "name": "TEST",
-          "rarity": "common",
-          "description": "TEST EPHEMERE",
-          "hint": "Allô",
+          "rarity": "legendary",
+          "description": "eazea",
+          "hint": "eazea",
           "ephemeral": {
-            "availableFrom": "2026-07-23T22:05:00.000Z",
-            "availableUntil": "2026-07-25T22:05:00.000Z",
-            "notificationTitle": "Un nouveau son est apparu",
-            "notificationBody": "Tu as deux jours pour le capturer :)"
-        },
-        {
-          "id": "retsza",
-          "name": "RETSSQ",
-          "rarity": "rare",
-          "description": "ezae",
-          "hint": "ezae",
-          "ephemeral": {
-            "availableFrom": "2026-07-23T22:21:00.000Z",
-            "availableUntil": "2026-07-25T22:19:00.000Z",
-            "notificationTitle": "ezaea",
-            "notificationBody": "ezaeaz"
+            "availableFrom": "2026-07-23T22:33:00.000Z",
+            "availableUntil": "2026-07-25T22:30:00.000Z",
+            "notificationTitle": "ezaez",
+            "notificationBody": "ezaeazaeazeaz"
           }
         }
       ]
