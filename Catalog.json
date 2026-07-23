@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 9,
   "updatedAt": "2026-07-23",
   "categories": [
     {
@@ -81,11 +81,10 @@
             "availableUntil": "2026-07-25T22:05:00.000Z",
             "notificationTitle": "Un nouveau son est apparu",
             "notificationBody": "Tu as deux jours pour le capturer :)"
-          }
         },
         {
-          "id": "rets",
-          "name": "RETS",
+          "id": "retsza",
+          "name": "RETSSQ",
           "rarity": "rare",
           "description": "ezae",
           "hint": "ezae",
