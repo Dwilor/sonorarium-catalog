@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-23",
+  "categories": [
+    {
+      "id": "pluie-ciel",
+      "name": "Pluie & Ciel",
+      "icon": "cloud.moon",
+      "order": 1,
+      "sounds": [
+        {
+          "id": "pluie-fine",
+          "name": "Gouttes sur une vitre",
+          "rarity": "common",
+          "description": "La pluie qui dessine son propre chemin.",
+          "hint": "Près d'une fenêtre, pendant une averse."
+        },
+        {
+          "id": "bruit-de-pas-dans-l-eau",
+          "name": "Pas dans une flaque",
+          "rarity": "common",
+          "description": "L'eau qui éclabousse à chaque pas. Un plaisir d'enfant qu'on oublie trop vite.",
+          "hint": "Une flaque, des chaussures... et ton âme d'enfant !",
+          "ephemeral": {
+            "availableFrom": "2026-07-23T17:04:00.000Z",
+            "availableUntil": "2026-07-30T17:04:00.000Z",
+            "notificationTitle": "Ephemere Test",
+            "notificationBody": "Ephemere Test"
+          }
+        },
+        {
+          "id": "vent-dans-les-feuilles",
+          "name": "Vent dans les feuilles",
+          "rarity": "common",
+          "description": "Le ciel ne parle pas toujours avec la pluie.",
+          "hint": "Un arbre, un peu de vent, un bon bouquin ou quelques instants de calme."
+        },
+        {
+          "id": "averse",
+          "name": "Averse battante",
+          "rarity": "common",
+          "description": "La pluie qui tambourine, dense et vivante.",
+          "hint": "Sous un abri, pendant une grosse averse."
+        },
+        {
+          "id": "tonnerre",
+          "name": "Tonnerre",
+          "rarity": "rare",
+          "description": "Le grondement du ciel, lointain ou juste au-dessus.",
+          "hint": "Quand le ciel s'illumine, c'est à toi de jouer !"
+        },
+        {
+          "id": "grele",
+          "name": "Grêle",
+          "rarity": "rare",
+          "description": "Quelques minutes par an, pas plus. Le ciel qui lance ses billes de glace.",
+          "hint": "Rarissime. Sois prêt quand elle tombe."
+        },
+        {
+          "id": "orage-complet",
+          "name": "Orage complet",
+          "rarity": "legendary",
+          "description": "Pluie battante et tonnerre mêlés. Le grand théâtre du ciel.",
+          "hint": "Le cœur d'un vrai orage, bien à l'abri."
+        },
+        {
+          "id": "pas-dans-la-neige",
+          "name": "Pas dans la neige",
+          "rarity": "legendary",
+          "description": "Chaque pas laisse une empreinte... et un son qui n'existe qu'en hiver.",
+          "hint": "La neige fraîche est la meilleure alliée de ce souvenir."
+        }
+      ]
+    },
+    {
+      "id": "oiseaux",
+      "name": "Oiseaux",
+      "icon": "bird",
+      "order": 3,
+      "sounds": [
+        {
+          "id": "chant-oiseau",
+          "name": "Chant d'oiseau",
+          "rarity": "common",
+          "description": "Un chant clair, quelque part dans les branches.",
+          "hint": "Un matin, un jardin, un peu de patience."
+        },
+        {
+          "id": "goeland",
+          "name": "Goéland",
+          "rarity": "common",
+          "description": "Le cri du large, même en pleine ville.",
+          "hint": "Près de la mer, ou d'une poubelle."
+        },
+        {
+          "id": "choeur-aube",
+          "name": "Chœur de l'aube",
+          "rarity": "rare",
+          "description": "Le monde qui s'éveille en chantant, dans la lumière naissante.",
+          "hint": "Lève-toi avant le soleil, un matin de printemps."
+        },
+        {
+          "id": "chouette",
+          "name": "Chouette",
+          "rarity": "rare",
+          "description": "Le hululement qui traverse la nuit.",
+          "hint": "Une nuit calme, à la lisière d'un bois."
+        }
+      ]
+    },
+    {
+      "id": "coeur",
+      "name": "Sons du cœur",
+      "icon": "heart",
+      "order": 4,
+      "sounds": [
+        {
+          "id": "ronronnement",
+          "name": "Ronronnement",
+          "rarity": "common",
+          "description": "Le petit moteur du bonheur simple.",
+          "hint": "Un chat détendu, des caresses, c'est tout."
+        },
+        {
+          "id": "mots-aimes",
+          "name": "Mots d'un être aimé",
+          "rarity": "legendary",
+          "description": "Une voix qui compte, dire quelque chose qui compte. À garder pour toujours.",
+          "hint": "Demande-lui de te dire quelques mots. N'importe lesquels."
+        },
+        {
+          "id": "rire-ami",
+          "name": "Rire d'un ami",
+          "rarity": "rare",
+          "description": "Un vrai rire, celui qu'on n'imite pas.",
+          "hint": "Sois prêt. Les meilleurs rires ne préviennent pas."
+        },
+        {
+          "id": "repas-famille",
+          "name": "Repas de famille",
+          "rarity": "rare",
+          "description": "Les couverts, les voix qui se croisent, la vie autour d'une table.",
+          "hint": "Pose ton téléphone au milieu, discrètement."
+        }
+      ]
+    },
+    {
+      "id": "instant",
+      "name": "Sons de l'instant",
+      "icon": "circle.dotted",
+      "order": 5,
+      "sounds": [
+        {
+          "id": "silence",
+          "name": "Silence complet",
+          "rarity": "legendary",
+          "description": "Trente secondes sans un bruit humain. Le son le plus rare de notre époque.",
+          "hint": "Bonne chance. Vraiment."
+        },
+        {
+          "id": "respiration",
+          "name": "Sa propre respiration",
+          "rarity": "common",
+          "description": "Le son qu'on porte partout sans jamais l'écouter.",
+          "hint": "Un endroit calme, le micro près de toi, rien d'autre."
+        },
+        {
+          "id": "pages",
+          "name": "Pages qu'on tourne",
+          "rarity": "common",
+          "description": "Le froissement doux d'une lecture.",
+          "hint": "Un vrai livre, en papier."
+        }
+      ]
+    },
+    {
+      "id": "nouvelle-categorie-mrum4jas",
+      "name": "Famille & Amis",
+      "icon": "sparkles",
+      "order": 2,
+      "sounds": []
+    }
+  ]
+}
