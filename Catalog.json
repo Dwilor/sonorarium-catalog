@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updatedAt": "2026-07-23",
+  "version": 9,
+  "updatedAt": "2026-07-24",
   "categories": [
     {
       "id": "pluie-ciel",
@@ -20,13 +20,7 @@
           "name": "Pas dans une flaque",
           "rarity": "common",
           "description": "L'eau qui éclabousse à chaque pas. Un plaisir d'enfant qu'on oublie trop vite.",
-          "hint": "Une flaque, des chaussures... et ton âme d'enfant !",
-          "ephemeral": {
-            "availableFrom": "2026-07-23T17:04:00.000Z",
-            "availableUntil": "2026-07-30T17:04:00.000Z",
-            "notificationTitle": "Ephemere Test",
-            "notificationBody": "Ephemere Test"
-          }
+          "hint": "Une flaque, des chaussures... et ton âme d'enfant !"
         },
         {
           "id": "vent-dans-les-feuilles",
@@ -41,6 +35,13 @@
           "rarity": "common",
           "description": "La pluie qui tambourine, dense et vivante.",
           "hint": "Sous un abri, pendant une grosse averse."
+        },
+        {
+          "id": "pluie-sur-tente",
+          "name": "Pluie sur une tente",
+          "rarity": "rare",
+          "description": "Des milliers de petits doigts qui tapotent la toile, à quelques centimètres de ton nez.",
+          "hint": "Un camping, une nuit pluvieuse. Le meilleur son du monde quand on est au sec."
         },
         {
           "id": "tonnerre",
@@ -69,32 +70,56 @@
           "rarity": "legendary",
           "description": "Chaque pas laisse une empreinte... et un son qui n'existe qu'en hiver.",
           "hint": "La neige fraîche est la meilleure alliée de ce souvenir."
-        },
+        }
+      ]
+    },
+    {
+      "id": "famille-amis",
+      "name": "Famille & Amis",
+      "icon": "person.2",
+      "order": 2,
+      "sounds": [
         {
-          "id": "test",
-          "name": "TEST",
-          "rarity": "legendary",
-          "description": "eazea",
-          "hint": "eazea",
-          "ephemeral": {
-            "availableFrom": "2026-07-23T22:33:00.000Z",
-            "availableUntil": "2026-07-25T22:30:00.000Z",
-            "notificationTitle": "ezaez",
-            "notificationBody": "ezaeazaeazeaz"
-          }
-        },
-        {
-          "id": "nouveau-son",
-          "name": "Nouveau son",
+          "id": "trinquer",
+          "name": "Tchin !",
           "rarity": "common",
-          "description": "ezaeaz",
-          "hint": "ezaea",
-          "ephemeral": {
-            "availableFrom": "2026-07-23T22:48:00.000Z",
-            "availableUntil": "2026-07-25T22:45:00.000Z",
-            "notificationTitle": "Test",
-            "notificationBody": "Test"
-          }
+          "description": "Le tintement des verres qui se rencontrent. Petit son, grande promesse.",
+          "hint": "Un apéro, des amis, et le réflexe de dégainer le micro."
+        },
+        {
+          "id": "jeu-de-societe",
+          "name": "Soirée jeux",
+          "rarity": "common",
+          "description": "Les dés qui roulent, les pions qui claquent, la mauvaise foi qui s'installe.",
+          "hint": "Une table, un jeu, et quelqu'un qui triche probablement."
+        },
+        {
+          "id": "allo-grand-parent",
+          "name": "Allô d'un grand-parent",
+          "rarity": "rare",
+          "description": "Cette façon unique de décrocher, avec la voix qui sourit avant les mots.",
+          "hint": "Appelle en haut-parleur. Et rappelle plus souvent, tant qu'à faire."
+        },
+        {
+          "id": "histoire-du-soir",
+          "name": "Histoire du soir",
+          "rarity": "rare",
+          "description": "Une voix qui lit, un enfant qui écoute. Le rituel le plus doux qui soit.",
+          "hint": "Au moment du coucher, sans déranger la magie."
+        },
+        {
+          "id": "joyeux-anniversaire",
+          "name": "Joyeux anniversaire",
+          "rarity": "rare",
+          "description": "La chanson chantée faux par tout le monde, et pourtant parfaite.",
+          "hint": "Une fois par an et par personne. Fais tes comptes."
+        },
+        {
+          "id": "rire-de-bebe",
+          "name": "Rire de bébé",
+          "rarity": "legendary",
+          "description": "Le son le plus contagieux de l'univers. Impossible de l'écouter sans sourire.",
+          "hint": "Un bébé de ton entourage, un fou rire, et beaucoup de chance."
         }
       ]
     },
@@ -117,6 +142,20 @@
           "rarity": "common",
           "description": "Le cri du large, même en pleine ville.",
           "hint": "Près de la mer, ou d'une poubelle."
+        },
+        {
+          "id": "roucoulement",
+          "name": "Roucoulement de pigeon",
+          "rarity": "common",
+          "description": "Le ronron des villes. Il est là depuis toujours, personne ne l'écoute jamais.",
+          "hint": "Un rebord de fenêtre, une place, un banc. Il t'attend."
+        },
+        {
+          "id": "pic-vert",
+          "name": "Tambour du pic",
+          "rarity": "rare",
+          "description": "Le seul percussionniste de la forêt. Il répète, mais ne donne jamais de concert.",
+          "hint": "Une forêt calme, et ce toc-toc-toc qui vient de nulle part."
         },
         {
           "id": "choeur-aube",
@@ -196,15 +235,194 @@
           "rarity": "common",
           "description": "Le froissement doux d'une lecture.",
           "hint": "Un vrai livre, en papier."
+        },
+        {
+          "id": "bouilloire",
+          "name": "Bouilloire qui chante",
+          "rarity": "common",
+          "description": "Le frémissement qui monte, monte... et annonce une pause bien méritée.",
+          "hint": "Une cuisine, une envie de thé, deux minutes de patience."
+        },
+        {
+          "id": "feu-crepite",
+          "name": "Feu qui crépite",
+          "rarity": "rare",
+          "description": "Le plus vieux programme télé de l'humanité.",
+          "hint": "Cheminée, poêle ou feu de camp. Approche le micro, pas les doigts."
         }
       ]
     },
     {
-      "id": "nouvelle-categorie-mrum4jas",
-      "name": "Famille & Amis",
+      "id": "mer-riviere",
+      "name": "Mer & Rivière",
+      "icon": "water.waves",
+      "order": 6,
+      "sounds": [
+        {
+          "id": "vagues",
+          "name": "Vagues sur le sable",
+          "rarity": "common",
+          "description": "Le va-et-vient qui berce le monde depuis toujours.",
+          "hint": "Une plage, n'importe laquelle, n'importe quand."
+        },
+        {
+          "id": "ruisseau",
+          "name": "Ruisseau",
+          "rarity": "common",
+          "description": "L'eau qui bavarde entre les pierres, pressée d'aller nulle part.",
+          "hint": "Une balade en campagne, l'oreille aux aguets."
+        },
+        {
+          "id": "plongeon",
+          "name": "Plongeon",
+          "rarity": "common",
+          "description": "Le grand splash. Une seconde de courage, une éternité de fraîcheur.",
+          "hint": "Piscine, lac ou mer. Toi ou un volontaire."
+        },
+        {
+          "id": "galets",
+          "name": "Galets roulés par la mer",
+          "rarity": "rare",
+          "description": "Des milliers de pierres qui s'entrechoquent à chaque vague. La mer qui applaudit.",
+          "hint": "Une plage de galets, quand la vague se retire."
+        },
+        {
+          "id": "tempete-mer",
+          "name": "Tempête en bord de mer",
+          "rarity": "legendary",
+          "description": "L'océan en colère, le vent qui hurle. La nature qui montre qui commande.",
+          "hint": "Un jour de tempête, bien couvert, à distance respectueuse."
+        }
+      ]
+    },
+    {
+      "id": "musique",
+      "name": "Musique & Instruments",
+      "icon": "music.note",
+      "order": 7,
+      "sounds": [
+        {
+          "id": "musicien-de-rue",
+          "name": "Musicien de rue",
+          "rarity": "common",
+          "description": "Un concert gratuit pour ceux qui prennent le temps de s'arrêter.",
+          "hint": "Une rue passante, un chapeau posé au sol. Laisse une pièce, capture un son."
+        },
+        {
+          "id": "cloches",
+          "name": "Cloches",
+          "rarity": "common",
+          "description": "La voix du village qui compte les heures depuis des siècles.",
+          "hint": "Près d'une église, pile à l'heure juste. Midi, c'est le jackpot."
+        },
+        {
+          "id": "guitare-entre-amis",
+          "name": "Guitare entre amis",
+          "rarity": "rare",
+          "description": "Trois accords, des voix qui s'accrochent au refrain. La musique comme prétexte.",
+          "hint": "Une soirée, quelqu'un qui sort une guitare. Ça finit toujours par arriver."
+        },
+        {
+          "id": "piano-fenetre",
+          "name": "Piano derrière une fenêtre",
+          "rarity": "rare",
+          "description": "Quelqu'un s'exerce, quelque part. Un concert volé, joué pour personne.",
+          "hint": "Une rue calme, une fenêtre ouverte, un coup de chance."
+        },
+        {
+          "id": "accordage-orchestre",
+          "name": "Orchestre qui s'accorde",
+          "rarity": "legendary",
+          "description": "Ce chaos magnifique juste avant le silence, juste avant la musique.",
+          "hint": "Une salle de concert, quelques minutes avant le lever de rideau."
+        }
+      ]
+    },
+    {
+      "id": "ville-quotidien",
+      "name": "Ville & Quotidien",
+      "icon": "building.2",
+      "order": 8,
+      "sounds": [
+        {
+          "id": "marche",
+          "name": "Marché du matin",
+          "rarity": "common",
+          "description": "Les vendeurs qui interpellent, les cagettes qui claquent, la vie qui négocie.",
+          "hint": "Un marché, un samedi matin, un panier à remplir."
+        },
+        {
+          "id": "cafe-machine",
+          "name": "Machine à café",
+          "rarity": "common",
+          "description": "Le grondement, la vapeur, puis l'odeur. Le vrai réveil de la journée.",
+          "hint": "Un comptoir de café, ou ta propre cuisine."
+        },
+        {
+          "id": "train-qui-passe",
+          "name": "Train qui passe",
+          "rarity": "common",
+          "description": "Le grondement qui approche, passe et s'éloigne, chargé de gens qu'on ne connaîtra jamais.",
+          "hint": "Un quai de gare, ou un passage à niveau."
+        },
+        {
+          "id": "roue-libre",
+          "name": "Vélo en roue libre",
+          "rarity": "common",
+          "description": "Le cliquetis de la liberté qui descend une pente sans pédaler.",
+          "hint": "Un vélo, une descente, zéro effort."
+        },
+        {
+          "id": "terrasse-soir",
+          "name": "Terrasse un soir d'été",
+          "rarity": "rare",
+          "description": "Les conversations qui se mélangent, les verres, les rires. L'été mis en bouteille.",
+          "hint": "Une terrasse pleine, une soirée douce, un micro discret."
+        }
+      ]
+    },
+    {
+      "id": "insolite",
+      "name": "Insolite",
       "icon": "sparkles",
-      "order": 2,
-      "sounds": []
+      "order": 9,
+      "sounds": [
+        {
+          "id": "ronflement",
+          "name": "Ronflement",
+          "rarity": "common",
+          "description": "La preuve sonore. Parce que « je ne ronfle pas » ne tient jamais très longtemps.",
+          "hint": "Quelqu'un qui dort profondément. Usage diplomatique recommandé."
+        },
+        {
+          "id": "echo",
+          "name": "Écho",
+          "rarity": "rare",
+          "description": "Ta voix qui part en voyage et revient te dire bonjour.",
+          "hint": "Un tunnel, une falaise, un parking vide. Et zéro témoin, c'est mieux."
+        },
+        {
+          "id": "bouchon-champagne",
+          "name": "Bouchon qui saute",
+          "rarity": "rare",
+          "description": "Le pop qui annonce toujours une bonne nouvelle.",
+          "hint": "Une occasion à fêter. Vise le plafond, pas les invités."
+        },
+        {
+          "id": "feu-artifice",
+          "name": "Feu d'artifice",
+          "rarity": "rare",
+          "description": "Le ciel qui explose de couleurs, et la foule qui fait « oooh ».",
+          "hint": "Un 14 juillet, ou une fête qui voit les choses en grand."
+        },
+        {
+          "id": "lac-gele",
+          "name": "Chant d'un lac gelé",
+          "rarity": "legendary",
+          "description": "La glace qui craque et résonne comme un vaisseau spatial. Le son le plus étrange de la nature.",
+          "hint": "Un lac gelé, un grand froid. Reste sur la rive, la glace chante mieux de loin."
+        }
+      ]
     }
   ]
 }
